@@ -14,7 +14,7 @@ export const HeaderContainer = styled.header`
     align-items: center;
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 375px) {
     padding: 16px 22px;
   }
 `;
@@ -47,7 +47,7 @@ export const Nav = styled.nav`
     color: ${({ theme }) => theme.colors.default};
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 375px) {
     label {
       display: none;
     }
@@ -74,7 +74,7 @@ export const userContainer = styled.div`
     color: ${({ theme }) => theme.colors.hoverPrimaryButtonColor};
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 375px) {
     display: none;
   }
 `;
