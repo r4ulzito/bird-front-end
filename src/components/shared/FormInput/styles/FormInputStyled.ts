@@ -32,7 +32,7 @@ export const FormInputLabel = styled.label`
     outline: none;
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     span {
       font-size: ${({ theme }) => theme.fontSize.sm};
     }

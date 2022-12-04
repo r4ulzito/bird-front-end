@@ -46,7 +46,7 @@ export const ModalContainer = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding: 42px 32px 22px;
 
     h1 {

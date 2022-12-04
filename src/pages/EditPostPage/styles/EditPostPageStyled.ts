@@ -7,7 +7,7 @@ export const EditPostPageContainer = styled.div`
   padding: 118px 0px 36px 0px;
   min-height: 100vh;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding: 96px 0px 36px 0px;
   }
 `;
@@ -23,7 +23,7 @@ export const EditPostPageContent = styled.section`
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   border-radius: 8px;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding: 26px 26px 32px;
     gap: 23px;
   }
@@ -47,7 +47,7 @@ export const ContentHeader = styled.header`
     color: ${({ theme }) => theme.colors.formPlaceholder};
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     h1 {
       font-weight: 500;
       font-size: ${({ theme }) => theme.fontSize.xm};
@@ -71,7 +71,7 @@ export const MainFormContainer = styled.form`
   justify-content: center;
   gap: 46px;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     gap: 32px;
   } ;
 `;
@@ -94,7 +94,7 @@ export const FormInputsContainer = styled.section`
     }
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     gap: 26px;
     figure {
       width: 232px;
@@ -111,7 +111,7 @@ export const FormInputsContent = styled.div`
   align-items: center;
   gap: 18px;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     grid-template-columns: 1fr;
 
     label {
@@ -127,7 +127,7 @@ export const FormFooter = styled.footer`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     button {
       font-size: ${({ theme }) => theme.fontSize.md};
       line-height: 23px;

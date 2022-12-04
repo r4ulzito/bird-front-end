@@ -30,7 +30,7 @@ export const PostDetailPageStyle = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     gap: 42px;
     padding-bottom: 40px;
 
@@ -96,7 +96,7 @@ export const PostDetailPageContent = styled.section`
     border-radius: 8px;
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     flex-direction: column;
     gap: 18px;
     align-items: flex-start;

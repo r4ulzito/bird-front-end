@@ -7,7 +7,7 @@ export const CreatePostContainer = styled.div`
   padding-top: 86px;
   min-height: 100vh;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding-bottom: 40px;
   }
 `;
@@ -35,7 +35,7 @@ export const CreatePostStyled = styled.section`
     }
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding: 32px 22px 48px;
 
     form {
@@ -58,7 +58,7 @@ export const InputsContainer = styled.section`
   column-gap: 32px;
   row-gap: 16px;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     grid-template-columns: 1fr;
 
     label {
@@ -75,7 +75,7 @@ export const SightingDateInputContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     label {
       input {
         width: 236px;
@@ -100,7 +100,7 @@ export const HeaderContainer = styled.header`
     font-weight: 400;
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     h2 {
       font-size: ${({ theme }) => theme.fontSize.xm};
       font-weight: 500;

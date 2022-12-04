@@ -14,7 +14,7 @@ export const PostCardDivStyled = styled.div`
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   border-radius: 8px;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding-left: 20px;
     padding-right: 20px;
 
@@ -76,7 +76,7 @@ export const PostBirdLocaleStyled = styled.p`
 
   color: ${({ theme }) => theme.colors.formPlaceholder};
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     font-size: ${({ theme }) => theme.fontSize.xs};
     line-height: 0px;
   }
@@ -89,7 +89,7 @@ export const PostBirdNameStyled = styled.p`
   line-height: 24px;
   color: ${({ theme }) => theme.colors.primaryColor};
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     font-size: ${({ theme }) => theme.fontSize.sm};
   }
 `;
@@ -120,7 +120,7 @@ export const PostContentStyled = styled.div`
       background-color: ${({ theme }) => theme.colors.secondColorHover};
     }
 
-    @media (max-width: 375px) {
+    @media screen and (max-width: 425px) {
       font-size: ${({ theme }) => theme.fontSize.sm};
       font-weight: 500;
       padding: 2px 32px;
@@ -129,7 +129,7 @@ export const PostContentStyled = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     gap: 10px;
   }
 `;
@@ -141,7 +141,7 @@ export const PostImageStyled = styled.img`
   background-repeat: no-repeat;
   border-radius: 8px;
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     width: 224px;
     height: 143px;
     margin-top: 8px;

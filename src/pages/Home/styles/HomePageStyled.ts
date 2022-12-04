@@ -13,7 +13,7 @@ export const HomeContainer = styled.div`
     display: none;
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     padding: 80px 0 80px 0;
     min-height: 100vh;
     label {

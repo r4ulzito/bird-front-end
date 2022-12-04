@@ -22,7 +22,7 @@ export const NoPostStyled = styled.div`
     font-weight: 400;
   }
 
-  @media (max-width: 375px) {
+  @media screen and (max-width: 425px) {
     img {
       margin-top: 26px;
       margin-bottom: 24px;
