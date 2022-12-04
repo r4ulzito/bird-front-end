@@ -15,6 +15,7 @@ export const HomeContainer = styled.div`
 
   @media screen and (max-width: 425px) {
     padding: 80px 0 80px 0;
+    gap: 30px;
     min-height: 100vh;
     label {
       width: 280px;
